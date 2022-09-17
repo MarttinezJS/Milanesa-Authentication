@@ -1,0 +1,25 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Modulo de autenticacion para milanesa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarttinezJS/Milanesa-Authentication.git"
+  },
+  "author": "Jhonatan Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarttinezJS/Milanesa-Authentication.git/issues"
+  },
+  "homepage": "https://github.com/MarttinezJS/Milanesa-Authentication.git#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2"
+  }
+}
