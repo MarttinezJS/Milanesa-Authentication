@@ -1,7 +1,17 @@
 version: '3.9'
 
 services:
+  milanesa-backend-autentication:
+    build: ../..
+    image: milanesa/autentication:0.0.1
+    container_name: backend-autentication
+    restart: always
+    networks:
+      - milanesa
+    environment:
+      - PORT=${PORT}
 
 networks:
   milanesa:
     driver: bridge
+    external: true
